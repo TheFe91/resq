@@ -15,9 +15,9 @@ This library tries to implement something similar to `querySelector` and `queryS
 ## Installation
 
 ```
-$ npm install --save resq
+$ npm install --save enhanced-resq
 
-$ yarn add resq
+$ yarn add enhanced-resq
 ```
 
 ## Usage
