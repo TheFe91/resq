@@ -159,7 +159,7 @@ resq$('My*Component', root);
 Going by the same example as in [basic usage](README.md#basic-usage), if you don't want to pass the root element to the function, you can do it this way:
 
 ```js
-import { resq$, waitToLoadReact } from 'resq'
+import { resq$, waitToLoadReact, waitToLoadReactInIframe } from 'resq'
 
 async function getReactElement(name) {
     try {
@@ -169,6 +169,16 @@ async function getReactElement(name) {
     } catch (error) {
         console.warn('resq error', error)
     }
+}
+
+async function getReactIFrameElement(name) {
+  try {
+    await waitToLoadReactInIframe(2000, 'html > body > div > iframe', '#root') // time in MS to wait before erroring
+
+    return resq$(name)
+  } catch (error) {
+    console.warn('resq error', error)
+  }
 }
 
 getReactElement('MyComponent')

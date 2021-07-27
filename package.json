@@ -1,6 +1,6 @@
 {
     "name": "enhanced-resq",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "React Element Selector Query Enhanced - Query React components and children by selector (component name), starting also from an iFrame",
     "keywords": [
         "react",
@@ -14,10 +14,10 @@
     "license": "MIT",
     "main": "dist/index.js",
     "bugs": {
-        "url": "https://github.com/baruchvlz/resq/issues"
+        "url": "https://github.com/TheFe91/resq/issues"
     },
     "repository": {
-        "url": "https://github.com/baruchvlz/resq"
+        "url": "https://github.com/TheFe91/resq"
     },
     "files": [
         "dist/index.js",
