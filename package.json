@@ -1,6 +1,6 @@
 {
     "name": "enhanced-resq",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "React Element Selector Query Enhanced - Query React components and children by selector (component name), starting also from an iFrame",
     "keywords": [
         "react",
